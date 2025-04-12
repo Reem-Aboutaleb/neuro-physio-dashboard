@@ -29,23 +29,31 @@ Built by Reem Aboutaleb — a Biomedical Engineering Master's student at NYU —
 
 ---
 
-## 🎬 Demo
 
-Watch it in action! Here's a quick walkthrough of the dashboard:
+🎬 DEMO
 
-https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/neuro_physio_demo.gif
+Watch the full Neuro-Physio Dashboard in action:
+
+![Demo GIF](https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/neuro_physio_demo.gif?raw=true)
+
+
+---
+
+
+📸 SCREENSHOTS
+
+### 💓 PPG Signal Viewer  
+Shows a real-time photoplethysmogram signal.
+
+![PPG Viewer](https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/ppg_viewer.png?raw=true)
 
 ---
 
-## 📸 Screenshots
+### 📈 Peak Detection + Heart Rate  
+Detects signal peaks and estimates BPM.
 
-PPG Viewer  
-https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/ppg_viewer.png
+![Peak Detection](https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/peaks.png?raw=true)
 
-Peak Detection  
-https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/peaks.png
-
----
 
 ## 🗂️ File Structure
 
