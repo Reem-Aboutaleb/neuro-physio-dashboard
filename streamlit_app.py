@@ -10,6 +10,7 @@ st.sidebar.title("🧭 Navigation")
 selection = st.sidebar.radio("Choose a section:", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
+
 from app import PPG, Peaks, EEG  # 👈 Add EEG
 
 PAGES = {
