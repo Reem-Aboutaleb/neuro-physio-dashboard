@@ -1,36 +1,53 @@
 # 🧠 Neuro-Physio Dashboard
 
 🚀 A next-level biomedical dashboard that fuses signal science with real-time interactivity.  
-Designed by Reem Aboutaleb — Biomedical Engineering Master's student at NYU — this app brings PPG and EEG analysis to life with machine learning, interactive visualizations, and downloadable reports.
+Built by Reem Aboutaleb — a Biomedical Engineering Master's student at NYU — this app brings PPG and EEG analysis to life with machine learning, intuitive visualizations, and downloadable reports.
 
 🔗 Live App: https://neuro-physio-dashboard-dkpzskqkcxnbccr94b5gxf.streamlit.app/
 
-
 ---
 
-🎯 WHAT THIS APP DOES
+## 🎯 What This App Does
 
 💓 PPG Signal Viewer  
-→ View a clean photoplethysmogram (PPG) signal with amplitude patterns
+→ View a clean photoplethysmogram (PPG) signal with amplitude patterns.
 
 📈 Peak Detection + Heart Rate  
-→ Automatically detect pulse peaks and estimate beats per minute (BPM)
+→ Automatically detect pulse peaks and estimate beats per minute (BPM).
 
 🧠 EEG Viewer  
-→ Simulate brainwave activity across Alpha and Beta bands — visualize 2 seconds of synthetic EEG
+→ Simulate brainwave activity across Alpha and Beta bands — visualize 2 seconds of synthetic EEG.
 
 🔬 Stress Classifier  
-→ Real-time machine learning model classifies calm vs stress based on signal features
+→ Real-time machine learning model that predicts calm vs stress based on signal features.
 
 📂 Upload Your Signal  
-→ Bring your own data (.csv) and explore it directly inside the app
+→ Bring your own `.csv` data and explore it directly inside the app — no code required!
 
 📤 Download Report  
-→ Instantly download a summary of your session as a .csv for research or analysis
+→ Instantly download a session summary for further analysis or documentation.
 
 ---
 
-🗂️ FILE STRUCTURE
+## 🎬 Demo
+
+Watch it in action! Here's a quick walkthrough of the dashboard:
+
+https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/neuro_physio_demo.gif
+
+---
+
+## 📸 Screenshots
+
+PPG Viewer  
+https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/ppg_viewer.png
+
+Peak Detection  
+https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/peaks.png
+
+---
+
+## 🗂️ File Structure
 
 neuro-physio-dashboard/  
 ├── app/  
@@ -42,33 +59,40 @@ neuro-physio-dashboard/
 │   └── Report.py  
 ├── data/  
 │   └── ppg_sample.csv  
+├── images/  
+│   ├── ppg_viewer.png  
+│   ├── peaks.png  
+│   └── neuro_physio_demo.gif  
 ├── streamlit_app.py  
 ├── requirements.txt  
 └── README.md
 
 ---
 
-🛠️ BUILT WITH
+## 🛠️ Built With
 
-streamlit  
-pandas  
-matplotlib  
-scipy  
-numpy  
-scikit-learn
-
----
-
-👩‍🔬 ABOUT THE CREATOR
-
-Hi! I’m **Reem Aboutaleb**, a Biomedical Engineering Master’s student at NYU passionate about digital health, physiological signal processing, and real-world applications of AI in medicine. I love building interactive tools that blend science and usability.
-
-This dashboard represents everything I enjoy:  
-⚙️ real data, 🤖 machine learning, and 💡 user-friendly design.
+- Streamlit — app framework
+- Pandas & NumPy — data manipulation
+- Matplotlib — visualizations
+- Scipy — signal analysis
+- Scikit-learn — machine learning
 
 ---
 
-📬 CONTACT
+## 👩‍🔬 About the Creator
+
+Hi! I’m **Reem Aboutaleb**, a Biomedical Engineering Master's student at NYU. I love combining science, health, and data into interactive experiences that make complex things feel simple — and useful.
+
+This dashboard is one of my favorite projects so far. It brings together:
+- ⚙️ Real physiological signals
+- 🤖 ML-powered analysis
+- 💡 Clean and friendly design
+
+Whether you're a researcher, engineer, or just curious — I hope you enjoy exploring it as much as I enjoyed building it!
+
+---
+
+## 📬 Contact
 
 📧 Email: Reemwalid222@gmail.com  
 🔗 GitHub: https://github.com/Reem-Aboutaleb  
@@ -76,7 +100,6 @@ This dashboard represents everything I enjoy:
 
 ---
 
-✨ Thank you for checking out this project.  
-Feel free to fork, explore, or get inspired!
+⭐ Thank you for visiting — feel free to fork it, test it, or reach out if it inspires something in you!
 
 
