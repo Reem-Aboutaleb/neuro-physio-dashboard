@@ -30,11 +30,13 @@ Built by Reem Aboutaleb — a Biomedical Engineering Master's student at NYU —
 ---
 
 
+---
+
 🎬 DEMO
 
 Watch the full Neuro-Physio Dashboard in action:
 
-![Demo GIF](https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/neuro_physio_demo.gif?raw=true)
+![Demo GIF](https://github.com/Reem-Aboutaleb/neuro-physio-dashboard/blob/main/images/neuro_physio_full_demo.gif?raw=true)
 
 
 ---
