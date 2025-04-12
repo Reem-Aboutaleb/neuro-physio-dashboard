@@ -1,8 +1,9 @@
 import streamlit as st
-from app import PPG
+from app import PPG, Peaks  # 👈 Add Peaks here
 
 PAGES = {
-    "PPG Signal": PPG
+    "PPG Signal": PPG,
+    "PPG + Peak Detection": Peaks  # 👈 Add this line
 }
 
 st.sidebar.title("🧭 Navigation")
