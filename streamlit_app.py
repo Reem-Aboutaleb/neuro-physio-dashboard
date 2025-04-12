@@ -1,12 +1,13 @@
 import streamlit as st
-from app import PPG, Peaks, EEG, Classifier  # ✅ Imported all current tabs
+from app import PPG, Peaks, EEG, Classifier, Upload  # ✅ All tabs imported
 
 # Navigation tabs
 PAGES = {
     "PPG Signal": PPG,
     "PPG + Peak Detection": Peaks,
     "EEG Viewer": EEG,
-    "Stress Classifier": Classifier
+    "Stress Classifier": Classifier,
+    "Upload Your Signal": Upload  # ✅ Upload tab added here
 }
 
 # Sidebar navigation
