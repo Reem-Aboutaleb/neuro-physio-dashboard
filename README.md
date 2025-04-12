@@ -3,7 +3,8 @@
 🚀 A next-level biomedical dashboard that fuses signal science with real-time interactivity.  
 Designed by Reem Aboutaleb — Biomedical Engineering Master's student at NYU — this app brings PPG and EEG analysis to life with machine learning, interactive visualizations, and downloadable reports.
 
-🔗 Live App: https://reem-aboutaleb-neuro-physio-dashboard.streamlit.app
+🔗 Live App: https://neuro-physio-dashboard-dkpzskqkcxnbccr94b5gxf.streamlit.app/
+
 
 ---
 
